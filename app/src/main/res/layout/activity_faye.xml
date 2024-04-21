@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_faye">
+
+    <ImageButton
+        android:id="@+id/homeButton2"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_button" />
+
+    <TextView
+        android:id="@+id/fayeText"
+        android:layout_width="240sp"
+        android:layout_height="310sp"
+
+        android:layout_marginTop="140dp"
+
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/k2d"
+        android:text="Faye Valentine is a former wanted bounty head who later became a member of the bounty hunting crew aboard the Bebop. Although appearing to be no more than 23 years old, Faye is actually around 77 years old. This is because she was put into a cryogenic freeze after a space shuttle accident, wherein she spent fifty-four years in suspended animation."
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/fayeQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="@font/allan"
+        android:text="You know what they say, cowboy.\nEasy come, easy go."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fayeText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

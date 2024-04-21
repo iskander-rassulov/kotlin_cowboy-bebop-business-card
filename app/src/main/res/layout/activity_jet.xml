@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_jet">
+
+    <ImageButton
+        android:id="@+id/homeButton3"
+        android:layout_width="50sp"
+        android:layout_height="50sp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="30dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/home_button2" />
+
+    <TextView
+        android:id="@+id/jetText"
+        android:layout_width="240sp"
+        android:layout_height="310sp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/k2d_thin"
+        android:text="Jet Black also known as Black Dog is an officer of the ISSP and later bounty hunter. He partnered with Fad until losing his arm in the mid-2060s. He then captained the Bebop and led a bounty-hunting crew including himself, Spike Spiegel,Faye Valentine, and Edward."
+        android:textAlignment="textEnd"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/jetQuote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="90dp"
+        android:fontFamily="@font/allan"
+        android:text="I’m the Black Dog and when I bite I don’t let go."
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/jetText" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
