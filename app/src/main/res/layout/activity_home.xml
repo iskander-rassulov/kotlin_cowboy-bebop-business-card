@@ -58,10 +58,11 @@
         android:id="@+id/main_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="45dp"
         android:layout_marginTop="1dp"
-        android:layout_marginEnd="45dp"
+        android:layout_marginBottom="6dp"
         android:background="#00FFFFFF"
+        android:onClick="mainButton"
+        app:layout_constraintBottom_toTopOf="@+id/number_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/about_text"
@@ -72,7 +73,7 @@
         android:layout_width="152dp"
         android:layout_height="23dp"
         android:layout_marginTop="6dp"
-        android:layout_marginEnd="104dp"
+        android:layout_marginEnd="100dp"
         android:fontFamily="@font/k2d"
         android:text="+100 - 678 - 78 - 42"
         android:textAlignment="center"
@@ -86,9 +87,11 @@
         android:id="@+id/imageView2"
         android:layout_width="14sp"
         android:layout_height="14sp"
+        android:layout_marginStart="100dp"
         android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/number_text"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/main_button"
-        app:srcCompat="@drawable/phone_icon"
-        tools:layout_editor_absoluteX="90dp" />
+        app:srcCompat="@drawable/phone_icon" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
