@@ -4,11 +4,12 @@ import ScreenSlidePagerAdapter
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.widget.Button
 import android.widget.ImageButton
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.viewpager2.widget.ViewPager2
+import com.google.android.material.tabs.TabLayout
+import com.google.android.material.tabs.TabLayoutMediator
 
 class InfoActivity : AppCompatActivity(){
     private lateinit var viewPager: ViewPager2
@@ -29,7 +30,11 @@ class InfoActivity : AppCompatActivity(){
         }
 
         viewPager = findViewById(R.id.viewPager)
+        val tabLayout: TabLayout = findViewById(R.id.tabDots)
         viewPager.adapter = ScreenSlidePagerAdapter(this)
+        TabLayoutMediator(tabLayout, viewPager) { tab, position ->
+            // Здесь можно задать текст или иконку, если нужно, но для точек это не обязательно
+        }.attach()
 
     }
 }
