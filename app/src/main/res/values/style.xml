@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- styles.xml -->
     <style name="Widget.TabLayout" parent="Widget.MaterialComponents.TabLayout">
+        <item name="tabMinWidth">24dp</item>
+        <item name="tabMaxWidth">24dp</item>
         <item name="tabBackground">@drawable/tab_background_selector</item>
-        <item name="tabIndicatorHeight">10dp</item>
+        <item name="tabIndicatorHeight">8dp</item>
+        <item name="tabPaddingStart">8dp</item>
+        <item name="tabPaddingEnd">8dp</item>
     </style>
+
 
 </resources>
