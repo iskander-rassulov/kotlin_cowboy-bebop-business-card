@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="oval">
-    <size android:width="8dp" android:height="8dp"/>
-    <solid android:color="@color/inactive_dot"/>
-</shape>
+<inset xmlns:android="http://schemas.android.com/apk/res/android"
+    android:insetLeft="4dp"
+    android:insetRight="4dp"
+    android:insetTop="4dp"
+    android:insetBottom="4dp">
+    <shape android:shape="oval">
+        <size android:width="16dp" android:height="16dp"/>
+        <solid android:color="@color/inactive_dot" />
+    </shape>
+</inset>

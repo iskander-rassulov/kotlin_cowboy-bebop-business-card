@@ -20,8 +20,8 @@
     <com.google.android.material.tabs.TabLayout
         android:id="@+id/tabDots"
         style="@style/Widget.TabLayout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="300dp"
+        android:layout_height="24dp"
         android:layout_marginTop="500dp"
         android:background="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -29,7 +29,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:tabGravity="center"
-        app:tabIndicatorColor="@color/active_dot"
+        app:tabIndicatorColor="#0014213D"
         app:tabIndicatorFullWidth="false"
         app:tabMode="fixed"
         tools:visibility="visible" />
