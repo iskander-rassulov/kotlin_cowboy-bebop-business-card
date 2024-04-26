@@ -10,10 +10,6 @@ Created a business card as an android app inspired by the anime Cowboy Bebop.
 
 ## App Previews
 
-Home Screen             |  Faye Valentine
-:-------------------------:|:-------------------------:
-![scr1](https://github.com/iskander-rassulov/kotlin_cowboy-bebop-business-card/assets/167358283/700c624e-386c-44a7-8756-77499b74c1e8) | ![scr3](https://github.com/iskander-rassulov/kotlin_cowboy-bebop-business-card/assets/167358283/831e2b66-526a-4358-a1c1-84675fabac75)
-
 Home Screen               |  Spike Spiegel
 :-------------------------:|:-------------------------:
 ![scr1](https://github.com/iskander-rassulov/kotlin_cowboy-bebop-business-card/assets/167358283/700c624e-386c-44a7-8756-77499b74c1e8) | ![scr2](https://github.com/iskander-rassulov/kotlin_cowboy-bebop-business-card/assets/167358283/d5015f76-24df-4879-9b0e-df1d5a2bdfcd)
